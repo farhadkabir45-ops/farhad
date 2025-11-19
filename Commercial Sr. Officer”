@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Farhad Kabir | Commercial Sr. Officer</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="CV / portfolio of Farhad Kabir, Commercial Senior Officer.">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#ffffff;--fg:#111827;--accent:#2563eb;--muted:#6b7280;}
+    @media (prefers-color-scheme:dark){
+      :root{--bg:#111827;--fg:#f9fafb;--accent:#3b82f6;--muted:#9ca3af;}
+    }
+    *{box-sizing:border-box;margin:0;font-family:'Inter',system-ui,sans-serif;}
+    body{background:var(--bg);color:var(--fg);line-height:1.6;display:flex;justify-content:center;padding:2rem 1rem;}
+    .card{max-width:700px;width:100%;background:var(--bg);border:1px solid var(--muted);border-radius:12px;padding:2rem;box-shadow:0 4px 20px rgba(0,0,0,.08);}
+    header{display:flex;align-items:center;gap:1.5rem;margin-bottom:1.5rem;flex-wrap:wrap;}
+    header img{width:96px;height:96px;border-radius:50%;object-fit:cover;border:3px solid var(--accent);}
+    header div h1{font-size:1.75rem;font-weight:600;margin-bottom:.25rem;}
+    header div p{color:var(--muted);}
+    section{margin-bottom:1.5rem;}
+    h2{font-size:1.125rem;font-weight:600;margin-bottom:.5rem;color:var(--accent);}
+    ul{padding-left:1.25rem;}
+    a{color:var(--accent);text-decoration:none;}
+    a:hover{text-decoration:underline;}
+    .btn{display:inline-block;margin-top:.75rem;padding:.5rem 1rem;background:var(--accent);color:#fff;border-radius:6px;font-weight:600;}
+    .btn:hover{filter:brightness(1.1);text-decoration:none;}
+    footer{text-align:center;font-size:.75rem;color:var(--muted);margin-top:2rem;}
+  </style>
+</head>
+<body>
+  <main class="card">
+    <header>
+      <!-- TODO: upload avatar.jpg then replace src -->
+      <img src="avatar.jpg" alt="Farhad Kabir" loading="lazy" width="96" height="96">
+      <div>
+        <h1>Farhad Kabir</h1>
+        <p>Commercial Senior Officer</p>
+      </div>
+    </header>
+
+    <section>
+      <h2>About</h2>
+      <p>TODO: 2-sentence professional summary (max 40 words).</p>
+    </section>
+
+    <section>
+      <h2>Core Skills</h2>
+      <ul>
+        <li>Revenue & pricing strategy</li>
+        <li>Key-account P&L ownership</li>
+        <li>Contract negotiation</li>
+        <li>Advanced Excel / Power BI</li>
+        <li>Fluent English, Spanish & French</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Career Highlights</h2>
+      <ul>
+        <li><strong>2020-Now | ABC Global</strong> – Commercial Sr. Officer<br>
+            Led €120 M tender across 14 countries; secured 92 % coverage and +5 ppt margin.</li>
+        <li><strong>2016-2020 | XYZ Trading</strong> – National Account Manager<br>
+            Grew top-3 retailer from €4 M to €9 M in 36 months.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Education & Certifications</h2>
+      <ul>
+        <li>MBA, IE Business School (Dean’s list)</li>
+        <li>B.Sc. International Business, Universidad de Granada</li>
+        <li>CIMA Certificate in Business Accounting</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:farhad@example.com">farhad@example.com</a><br>
+         LinkedIn: <a href="https://linkedin.com/in/farhadkabir" target="_blank" rel="noopener">linkedin.com/in/farhadkabir</a><br>
+         Phone: +34 600 000 000</p>
+      <a class="btn" href="mailto:farhad@example.com">Get In Touch</a>
+    </section>
+
+    <footer>© <span id="yr"></span> Farhad Kabir. Built with ❤️ and GitHub Pages.</footer>
+  </main>
+  <script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
+</body>
+</html>
